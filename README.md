@@ -1,63 +1,58 @@
-# 🛍️ Django eCommerce Website
+# Django eCommerce Website
 
-This is a simple online shopping website made using Django. It lets users look at products, add them to a cart, and place orders. There's also an admin panel to add or manage products.
+This is a basic online shopping website made using Django. It lets users look at products, add them to a cart, and place an order. There is also an admin panel to manage the products.
 
-## 🔧 Built With
-- Python & Django
+## What I used
+- Python and Django
 - HTML, CSS, JavaScript
 - SQLite (default database)
 
-## ✨ What It Can Do
-- Sign up and log in as a user
-- Browse products by category
-- Add to cart and checkout
-- Admin can add/edit/delete products
+## What it can do
+- Users can register and log in
+- They can see products and add them to the cart
+- They can place an order
+- Admin can add, edit, or delete products
 
-## 🚀 How to Run
+## How to run it
 
-1. **Clone the repo**
-```bash
+1. First, clone this project
+```
 git clone https://github.com/atulguptag/Django-eCommerce-Website.git
 cd Django-eCommerce-Website
 ```
 
-2. **Set up a virtual environment**
-```bash
+2. Make a virtual environment and activate it
+```
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  # For Windows: venv\Scripts\activate
 ```
 
-3. **Install the packages**
-```bash
+3. Install the packages
+```
 pip install -r requirements.txt
 ```
 
-4. **Run the migrations**
-```bash
+4. Run the migrations
+```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-5. **Make an admin user**
-```bash
+5. Create a superuser (admin)
+```
 python manage.py createsuperuser
 ```
 
-6. **Start the website**
-```bash
+6. Start the server
+```
 python manage.py runserver
 ```
 
-Go to your browser and open: `http://127.0.0.1:8000/`
+Then open your browser and go to: http://127.0.0.1:8000/
 
-## 📁 Folders You’ll See
-- `store/` – All the website code (models, views, urls)
-- `templates/` – HTML files
-- `static/` – CSS and JS files
 
-## 👨‍💻 About
-This was made to practice Django and understand how online stores work.
 
----
+## About
+I made this project to learn how Django works and how eCommerce websites are made.
 
-Made by [Lovish Tuteja](https://github.com/Lovish-t)
+Made by Lovish Tuteja - https://github.com/Lovish-t

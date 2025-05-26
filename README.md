@@ -50,22 +50,6 @@ python manage.py runserver
 
 Go to your browser and open: `http://127.0.0.1:8000/`
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page](screenshots/home.png)
-
-### 🛒 Cart Page
-![Cart Page](screenshots/cart.png)
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### ⚙️ Admin Panel
-![Admin Panel](screenshots/admin.png)
-
-> Make sure to add your screenshots inside a folder named `screenshots` in your project directory.
-
 ## 📁 Folders You’ll See
 - `store/` – All the website code (models, views, urls)
 - `templates/` – HTML files

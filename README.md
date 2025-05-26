@@ -1,65 +1,79 @@
 # 🛍️ Django eCommerce Website
 
-A simple and functional eCommerce web application built using Django. This project allows users to browse products, manage their cart, and complete orders. It also includes basic admin features for managing inventory.
+This is a simple online shopping website made using Django. It lets users look at products, add them to a cart, and place orders. There's also an admin panel to add or manage products.
 
-## 🔧 Tech Stack
-- **Backend:** Python, Django
-- **Frontend:** HTML, CSS, JavaScript
-- **Database:** SQLite
+## 🔧 Built With
+- Python & Django
+- HTML, CSS, JavaScript
+- SQLite (default database)
 
-## ✨ Features
-- User registration and login system
-- Product listing with categories
-- Add to cart and remove from cart functionality
-- Order summary and checkout
-- Admin panel for managing products
+## ✨ What It Can Do
+- Sign up and log in as a user
+- Browse products by category
+- Add to cart and checkout
+- Admin can add/edit/delete products
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-### 1. Clone the Repository
+1. **Clone the repo**
 ```bash
 git clone https://github.com/atulguptag/Django-eCommerce-Website.git
 cd Django-eCommerce-Website
 ```
 
-### 2. Create Virtual Environment
+2. **Set up a virtual environment**
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+3. **Install the packages**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run Migrations
+4. **Run the migrations**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5. Create Superuser (for admin access)
+5. **Make an admin user**
 ```bash
 python manage.py createsuperuser
 ```
 
-### 6. Start the Server
+6. **Start the website**
 ```bash
 python manage.py runserver
 ```
 
-Now go to `http://127.0.0.1:8000/` to see the app running!
+Go to your browser and open: `http://127.0.0.1:8000/`
 
-## 📁 Project Structure
-- `store/` - Core eCommerce logic (models, views, URLs)
-- `templates/` - HTML templates for the app
-- `static/` - CSS, JS, images
+## 📸 Screenshots
 
-## 📝 Note
-This is a learning project aimed at understanding how to build a basic eCommerce site with Django. Feel free to improve the design, add payment gateways, or enhance the product management features!
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🛒 Cart Page
+![Cart Page](screenshots/cart.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### ⚙️ Admin Panel
+![Admin Panel](screenshots/admin.png)
+
+> Make sure to add your screenshots inside a folder named `screenshots` in your project directory.
+
+## 📁 Folders You’ll See
+- `store/` – All the website code (models, views, urls)
+- `templates/` – HTML files
+- `static/` – CSS and JS files
+
+## 👨‍💻 About
+This was made to practice Django and understand how online stores work.
 
 ---
 
-## 📫 Contact
-Made  by [Lovish Tuteja](https://github.com/Lovish-t)
+Made by [Lovish Tuteja](https://github.com/Lovish-t)
